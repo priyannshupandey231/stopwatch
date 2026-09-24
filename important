@@ -1,0 +1,1 @@
+Instead of utilizing standard countdown iterations or time.time(), this solution tracks timestamps using time.perf_counter(). This function features the highest available resolution on your system, which makes it ideal for measuring brief intervals or building a highly accurate chronometer.
